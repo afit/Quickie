@@ -1,0 +1,62 @@
+Quickie
+=======
+
+QUICKSTART
+==========
+
+Copy the "Words.xml" file to "C:\". Run the QuickieDemo.exe binary.
+
+To use a different WordsProvider, such as the dummy one, edit
+PhraseBuilder.cs
+
+Use NUnit to run the testcases.
+
+NOTES
+=====
+
+*	There are a number of FIXME comments in the code; read them!
+
+*	Character groupings could be broken out to a configration
+	file
+
+*	The form should probably be designed and rendered dynamically,
+	based on that configuration
+
+*	Letters are uppercased by default
+
+*	The reading of the XML word list has been built very rapidly
+	-- there's no proper exception handling -- and there's no
+	clever mechanism for finding the words file
+
+*	Inline commenting isn't that thorough as I much prefer formal
+	documentating in UML (with Visio) and with Word, but didn't have
+	time to generate it
+
+*	Extra symbols can easily be added to the the {space} character
+	grouping by editing the line that defines the grouping
+	
+*	The WordsProvider / PhraseBuilder interface is quite weakly
+	defined
+
+GLOSSARY
+========
+
+QUICKIE			--	This system
+QUICKIE			--	A tiny Windows Form that shows how
+					Quickie can work
+PHRASE			--	A collection of words or characters
+WORD			--	A distinct collection of non-symbol
+					characters, as delimted by symbol characters
+WORDSPROVIDER	--	An entity that knows about predefined words,
+					and can use them to make word entry easier
+
+DEPENDANCIES
+============
+
+				--	.NET Framework 1.1
+				--	NUnit
+
+AUTHOR
+======
+
+Aidan Fitzpatrick <quickie@lothianproductions.co.uk>

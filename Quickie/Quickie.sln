@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quickie", "Quickie.csproj", "{99FE2914-6419-414B-A331-666A2499B61B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickieDemo", "..\QuickieDemo\QuickieDemo.csproj", "{6EDCF4F7-42DF-4DBC-8C4F-454335B94B45}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{99FE2914-6419-414B-A331-666A2499B61B}.Debug.ActiveCfg = Debug|.NET
+		{99FE2914-6419-414B-A331-666A2499B61B}.Debug.Build.0 = Debug|.NET
+		{99FE2914-6419-414B-A331-666A2499B61B}.Release.ActiveCfg = Release|.NET
+		{99FE2914-6419-414B-A331-666A2499B61B}.Release.Build.0 = Release|.NET
+		{6EDCF4F7-42DF-4DBC-8C4F-454335B94B45}.Debug.ActiveCfg = Debug|.NET
+		{6EDCF4F7-42DF-4DBC-8C4F-454335B94B45}.Debug.Build.0 = Debug|.NET
+		{6EDCF4F7-42DF-4DBC-8C4F-454335B94B45}.Release.ActiveCfg = Release|.NET
+		{6EDCF4F7-42DF-4DBC-8C4F-454335B94B45}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
